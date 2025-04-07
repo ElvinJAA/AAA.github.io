@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#000000+7,45484d+84 */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 7%,rgba(69,72,77,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+
+
+
+
+
+}
+
+
+
+
+/*cabezera*/
+header{
+    max-width: 1200px;
+    min-height: 150px;
+    margin: 0 auto;
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    border-radius: 20px 20px 0 0;
+}
+header img{ 
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    animation: 1s entrada-logo 1;
+}
+/*cabezera*/
+
+
+
+
+
+/*Menu*/
+.Menu-h{
+    max-width: 1200px;
+    min-height: 50px;
+    margin: 0 auto;
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#45484d+32,000000+100 */
+background: linear-gradient(to bottom,  #45484d 32%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+
+.Menu-h ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.Menu-h a{
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin: 20px;
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+}
+.Menu-h a:hover{
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .Menu-h a img{
+        width: 20px;
+        height: 20px;
+        color: white;
+    }
+    .Menu-h a img:hover{
+        animation: 1s rotacion;
+        
+
+    }
+    .Menu-h ul ul{
+        display: none;
+
+
+    }
+.Menu-h ul li:hover ul{
+    display: block;
+    position: absolute ;
+}
+.submenu a{
+    background: grey;
+}
+.submenu a:hover{
+    background: rgb(15, 14, 14);
+
+}
+    
+
+        
+    
+  
+/*Menu*/
+
+
+
+
+
+
+video{
+    width: 1200px;
+    height: 700px;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.contenido p{
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+.contenido li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    margin: 20px;
+    justify-content: center;
+}
+.contenido h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.contenido{
+    box-sizing: border-box;
+    max-width: 1200px;
+    min-height: 700px;
+    margin: 0 auto;
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#eeeeee+35,cccccc+100 */
+background: linear-gradient(to bottom,  #eeeeee 35%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/*Contenido*/
+
+
+
+
+footer{
+    max-width: 1200px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+footer h2{
+    padding-top: 50px;
+    color: white;
+    font-family: Arial;
+    font-size: 18;
+    text-align: center;
+}
+video{
+    max-width: 1200px;
+    min-height: 50px;
+}
+
+
+
+@keyframes entrada-logo{
+    0%{
+        transform: translateY(-200px);
+    }
+}
+@keyframes rotacion{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.form{
+    width: 400px;
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#000000+7,45484d+50 */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 7%,rgba(69,72,77,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .form h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+ }
+ .controls{
+    width: 100%;
+    background: white;
+    border-radius: 4px;
+    margin: 16px;
+    font-size: 20px;
+    
+ }
+.boton{
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+    padding-left: 20px;
+    width: 100px;
+    color: red;
+}
